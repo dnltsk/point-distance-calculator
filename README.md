@@ -19,7 +19,6 @@ Point 1 to Point 4: 8394.4
 Point 2 to Point 3: 7785.0
 Point 2 to Point 4: 6643.4
 Point 3 to Point 4: 7675.8
-
 ```
 
 ## pre-requirements
