@@ -1,21 +1,19 @@
-######################################################################
-## NOTE: THIS FILE SHOULD BE REPLACED BY RUNNING ./script/bootstrap ##
-######################################################################
-
 [tool.poetry]
-name = "python-template"
-version = "1.0.2"
+name = "point-distance-calculator"
+version = "0.1.0"
 description = ""
-authors = ["Armand Sauzay <sauzayarmand@gmail.com>"]
+authors = ["Daniel Teske <daniel.teske@free-now.com>"]
 readme = "README.md"
-packages = [{include = "python_template"}]
+packages = [{include = "point_distance_calculator"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
+[tool.poetry.scripts]
+main = "point_distance_calculator.main:main"
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.3.1"
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]

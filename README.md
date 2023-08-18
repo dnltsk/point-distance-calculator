@@ -1,8 +1,21 @@
-# python-template
+# Point Distance Calculator
 
-Template for python-based repositories.
+## pre-requirements
 
-## Usage
+* poetry
 
-1. Use this repository by specifying it as a template for your repository.
-2. run `./script/bootstrap`
+## setup
+
+```shell
+poetry install
+```
+
+## execute
+
+```shell
+poetry run main
+```
+
+## references
+
+* used [template](https://github.com/armand-sauzay/python-template) from Medium article [Python Project Setup: A Step-by-Step Guide to Industry Best Practices](https://armand-sauzay.medium.com/python-project-setup-a-step-by-step-guide-to-industry-best-practices-dbce717b2d12)
