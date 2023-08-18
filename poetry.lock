@@ -101,6 +101,17 @@ pycodestyle = ">=2.11.0,<2.12.0"
 pyflakes = ">=3.1.0,<3.2.0"
 
 [[package]]
+name = "haversine"
+version = "2.8.0"
+description = "Calculate the distance between 2 points on Earth."
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "haversine-2.8.0-py2.py3-none-any.whl", hash = "sha256:524529d6c39619a513629b68331ce8153ccfc7c30049ed43405c27b12614e8f6"},
+    {file = "haversine-2.8.0.tar.gz", hash = "sha256:cca39afd2ae5f1e6ed9231b332395bb8afb2e0a64edf70c238c176492e60c150"},
+]
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -351,4 +362,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4d3c2e37aa6615d9184607b5d2ee10daf83af4e9af7604df20adac9482fef73a"
+content-hash = "3434f3a46f89af8a2c8e668ac0e613cce8a3c23841bf33db583df99390e7992e"
