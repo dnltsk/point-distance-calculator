@@ -1,3 +1,5 @@
+from scalene import scalene_profiler
+
 from point_distance_calculator.distance_calculator import calculate_distance
 from point_distance_calculator.input_printer import print_input
 from point_distance_calculator.point_generator import generate_points
@@ -12,4 +14,6 @@ def main():
 
 
 if __name__ == "__main__":
+    scalene_profiler.start()
     main()
+    scalene_profiler.stop()

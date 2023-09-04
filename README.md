@@ -24,7 +24,7 @@ Point 3 to Point 4: 7675.8
 ## pre-requirements
 
 - [poetry](https://python-poetry.org/)
-- Python 3.11.4 (see [.python-version](./.python-version))
+- Python 3.10.12 (see [.python-version](./.python-version))
 
 ## setup
 
@@ -36,6 +36,12 @@ poetry install
 
 ```shell
 poetry run pytest
+```
+
+## profile
+
+```shell
+poetry run python -m scalene point_distance_calculator/main.py 
 ```
 
 ## execute

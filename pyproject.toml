@@ -2,17 +2,19 @@
 name = "point-distance-calculator"
 version = "0.1.0"
 description = ""
-authors = ["Daniel Teske <daniel.teske@free-now.com>"]
+authors = ["Daniel Teske <daniel.teske@gmail.com>"]
 readme = "README.md"
 packages = [{include = "point_distance_calculator"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.10.12"
 numpy = "^1.25.2"
 haversine = "^2.8.0"
+scalene = "^1.5.27"
 
 [tool.poetry.scripts]
 main = "point_distance_calculator.main:main"
+main_s = "scalene --cli point_distance_calculator.main:main"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.4.0"
